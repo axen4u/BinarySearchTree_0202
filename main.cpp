@@ -67,5 +67,8 @@ void searc(string element, Node*& parent, Node*& currentNode)
     {
         parent = currentNode;
         if (element < currentNode->info)
+        currentNode = currentNode->leftchild;
+        else
+        currentNode = currentNode->rightchild;
     }
 }
