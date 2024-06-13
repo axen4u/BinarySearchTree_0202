@@ -37,4 +37,10 @@ class BinaryTree
         newNode->leftchild =nullptr; // Make the left child of the new node point to null
         newNode->rightchild =nullptr; // make the right child of the new node point to null
 
-     
+        Node*parent = nullptr;
+        Node*currentNode = nullptr;
+        search(element, parent, currentnode); // Locate the node wich be the parent of the node to be ins
+
+        if(parent == nullptr) // if the parent is Null (tree is empty)
+    }
+};
