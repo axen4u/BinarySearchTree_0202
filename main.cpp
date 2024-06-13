@@ -65,6 +65,7 @@ void searc(string element, Node*& parent, Node*& currentNode)
     parent = NULL;
     while ((currentNode !=Null) && (currentNode->info !=element))
     {
-        parent = currentNode
+        parent = currentNode;
+        if (element < currentNode->info)
     }
 }
