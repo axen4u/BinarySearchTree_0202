@@ -20,3 +20,18 @@ class Node
     }
 
 };
+class BinaryTree
+{
+    public:
+    Node*Root;
+
+    BinaryTree()
+    {
+        Root = nullptr; // initializing Root to null
+    }
+
+    void insert(string element) // insert a node in the binary serach tree
+    {
+        
+    }
+};
