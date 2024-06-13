@@ -59,3 +59,8 @@ class BinaryTree
 
 
 void searc(string element, Node*& parent, Node*& currentNode)
+{
+    // this function searches currentnode of the specified Node as well as the current Node of its parent
+    currentNode = Root;
+    parent = NULL;
+}
