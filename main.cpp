@@ -58,7 +58,7 @@ class BinaryTree
 
 
 
-void searc(string element, Node*& parent, Node*& currentNode)
+void search(string element, Node*& parent, Node*& currentNode)
 {
     // this function searches currentnode of the specified Node as well as the current Node of its parent
     currentNode = Root;
@@ -70,5 +70,14 @@ void searc(string element, Node*& parent, Node*& currentNode)
         currentNode = currentNode->leftchild;
         else
         currentNode = currentNode->rightchild;
+    }
+}
+
+void inorder(Node*ptr)
+{
+    if (ROOT == NULL)
+    {
+        cout << "Tree is empty" << endl;
+        return;
     }
 }
