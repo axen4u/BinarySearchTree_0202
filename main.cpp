@@ -55,3 +55,7 @@ class BinaryTree
         parent->rightchild=newNode; // Make the right child pf the parent poin to the new node
     }
 };
+
+
+
+void searc(string element, Node*& parent, Node*& currentNode)
