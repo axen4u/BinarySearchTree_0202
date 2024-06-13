@@ -43,4 +43,7 @@ class BinaryTree
     }
     if(parent == nullptr) // if the parent is Null (tree is empty)
     {
-   
+        Root = newNode; // Mark the new node as Root
+        return; // Exit
+    }
+  
